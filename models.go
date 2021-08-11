@@ -1,4 +1,4 @@
-package main
+package models
 
 type Pedido struct {
 	ID       string  `json:"id,omitempty" bson:"id"`
