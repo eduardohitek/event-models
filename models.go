@@ -10,4 +10,5 @@ type Pedido struct {
 type Evento struct {
 	Tipo   string `json:"tipo,omitempty" bson:"tipo"`
 	Pedido Pedido `json:"pedido,omitempty" bson:"pedido"`
+	Origem string `json:"origem,omitempty" bson:"origem"`
 }
